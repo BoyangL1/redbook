@@ -1,0 +1,29 @@
+body{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes refreshAni{
+    0% {
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(540deg);
+    }
+}

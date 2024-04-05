@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minium-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>Vite App</title>
+  </head>
+  <script>
+    let uiWidth = 375 //动态获取当前手机的宽度
+      function setFontSize(){
+        var fontSize = document.documentElement.clientWidth/(uiWidth/16)
+        document.documentElement.style.fontSize = fontSize + 'px'
+      }
+      setFontSize()
+      window.addEventListener('resize',setFontSize)
+  </script>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+
+</html>

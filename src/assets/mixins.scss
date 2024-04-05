@@ -1,0 +1,35 @@
+@mixin flexac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flexbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexcc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexlr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexxl{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flexl{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
