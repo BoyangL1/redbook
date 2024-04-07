@@ -86,7 +86,7 @@ onMounted(() => {
     getModuleParams()
     onProgress({progress: moduleIdx.value == 0? 0: moduleIdx.value/(moduleList.length-1)})
     window.addEventListener('resize',()=>{
-        nextTick = []
+        // nextTick = []
         getModuleParams()
     }) 
 })
